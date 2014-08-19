@@ -7,7 +7,7 @@ resources: 1
 
 ## Objectives
 
-* Write code in `lib/cryptography.rb`'s method `#encode_int64` that is the Ruby version of the pseudo-code below:
+* Write code in `lib/cryptography.rb`'s `encode_int64` method that is the Ruby version of the pseudo-code below:
 ```
 Int64 hash (String s) {
   Int64 h = 7
