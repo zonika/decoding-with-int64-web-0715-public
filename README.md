@@ -3,7 +3,7 @@ tags: todo, cs, comp sci, computer science
 languages: ruby
 resources: 1
 ---
-# Int64 Hash
+# Cryptography with Int64 
 
 ## Objectives
 

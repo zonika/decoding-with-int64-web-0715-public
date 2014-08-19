@@ -1,3 +1,5 @@
+require 'pry'
+
 def encode_int64(string)
   valid_chars = "acdegilmnoprstuw"
   fin_num = 7
