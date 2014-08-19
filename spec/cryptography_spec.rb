@@ -10,7 +10,7 @@ describe '#encode_int64' do
   it 'returns message about including proper characters' do
     expect(encode_int64("degilmnrx")).to eq("The word should only contain letters in acdegilmnoprstuw")
   end
-  
+
 end
 
 describe '#decode_int64' do 
@@ -20,4 +20,10 @@ describe '#decode_int64' do
     expect(decode_int64(917052554341109)).to eq("degilmnrs")
   end
 
+end
+
+describe '#student_change' do
+  it 'find the characters that result in the value' do
+    expect(encode_int64("write your answer here")).to eq(956446786872726)
+  end
 end
