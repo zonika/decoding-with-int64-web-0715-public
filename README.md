@@ -1,13 +1,13 @@
 ---
 tags: todo, cs, comp sci, computer science
 languages: ruby
-resources: 0
+resources: 1
 ---
 # Int64 Hash
 
 ## Objectives
 
-* Write code in `encode_int64` that is the Ruby version of the pseudo-code below:
+* Write code in `lib/cryptography.rb`'s method `#encode_int64` that is the Ruby version of the pseudo-code below:
 ```
 Int64 hash (String s) {
   Int64 h = 7
