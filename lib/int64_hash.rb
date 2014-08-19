@@ -1,4 +1,4 @@
-def int64_hash(string)
+def encode_int64(string)
   valid_chars = "acdegilmnoprstuw"
   fin_num = 7
   i = 0
@@ -13,6 +13,6 @@ def int64_hash(string)
   fin_num
 end
 
-def revsered_int64_hash(number)
+def decode_int64(number)
   # code goes here
 end
