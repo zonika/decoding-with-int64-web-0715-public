@@ -7,7 +7,7 @@ resources: 1
 
 ## Objectives
 
-* Complete the method `encode_int64` in the `lib/cryptography.rb` file such that it passes the specs. It should be a Ruby version of the pseudo-code below:
+* Complete the method `encode_int64` in the `lib/cryptography.rb` file such that it passes the specs. It should be a Ruby version of the [statically-typed](http://stackoverflow.com/a/1517670/2890716)pseudo-code below:
 ```
 Int64 hash (String s) {
   Int64 h = 7
@@ -23,3 +23,4 @@ Int64 hash (String s) {
 
 ## Resources
 * [Stack Overflow](http://stackoverflow.com) - [What is the difference between INT, INT16, INT32 and INT64?](http://stackoverflow.com/q/9696660/2890716)
+* [Stack Overflow](http://stackoverflow.com) - [Static Typing](http://stackoverflow.com/a/1517670/2890716)
