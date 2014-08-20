@@ -1,5 +1,5 @@
 ---
-tags: todo, cs, comp sci, computer science
+tags: todo, cs, comp sci, computer science, reverse engineering
 languages: ruby
 resources: 1
 ---
