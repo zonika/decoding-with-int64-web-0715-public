@@ -1,5 +1,3 @@
-require 'pry'
-
 def valid_chars
   "acdegilmnoprstuw"
 end
