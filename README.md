@@ -18,7 +18,7 @@ Int64 hash (String s) {
   return h
 }
 ```
-* Write a method, `decode_int64`, that takes the numbers that `encode_int64` returns and turns them back into letters.
+* Write a method, `decode_int64`, that takes the encoded message that `encode_int64` returns and decrypts it.
 * Find a 9 letter string of characters that contains only letters from `acdegilmnoprstuw` such that `encode_int64(the_string)` retuns `956446786872726`.
 
 ## Resources
