@@ -7,7 +7,7 @@ describe '#encode_int64' do
   end
 
   it "converts 'c' to 260" do
-    expect(encode_int64("a")).to eq(260)
+    expect(encode_int64("c")).to eq(260)
   end
 
   it "converts 'ad' to 9585" do
@@ -41,7 +41,7 @@ describe '#decode_int64' do
   end
 
   it "converts 9585 to 'ad'" do
-    expect(encode_int64(9585)).to eq("ad")
+    expect(decode_int64(9585)).to eq("ad")
   end
 
   it "converts 680131659347 to 'leepadg'" do
@@ -54,11 +54,11 @@ describe '#decode_int64' do
 
 end
 
-describe '#update_the_spec' do
+describe '#student_change' do
 
   it 'replace the question mark with a word that encodes as 956446786872726' do
-    answer = "?"
+    answer = "trellises"
     expect(encode_int64(answer)).to eq(956446786872726)
   end
-
+  
 end
